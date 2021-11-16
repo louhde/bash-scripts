@@ -24,3 +24,18 @@ Renvoyez un message de votre choix suivant les cas mais ils devront être tous d
 2. Faire une fonction qui recense les différents postes des personnes ainsi que le nombre de personne qui ont ce poste
 3. Comme au dessus mais pour les genres
 4. Faire une fonction qui indique si deux personnes habitent dans la même ville
+
+## Exercice 3: Poissons :fish:
+
+1. Créer une fonction qui permet d’afficher la liste des poissons disponibles sur l’API https://acnhapi.com/v1/fish/ puis créer une variable Fish contenant cette liste
+2. Créer une fonction qui permet d’afficher tous les noms EN FRANÇAIS d ainsi que leur prix. La requête pour avoir accès au prix est : https://acnhapi.com/v1/fish/{fishID}
+3. Créer une fonction qui donne le prix d’un poisson passé en argument. 
+4. **BONUS**: La fonction quitte avec un code d’erreur 1 si le poisson n’existe pas
+5. En prenant le résultat de la fonction donnant le prix d’un poisson, faire une fonction définissant si le prix est cher suivant les paliers:
+
+        - de 100
+        de 100 à 250
+        de 250 à 500
+        + de 500
+
+Renvoyez un message de votre choix suivant les cas mais ils devront être tous différents.
